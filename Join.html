@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UtF-8" />
+    <title> Vigor Fitness Academy </title>
+    <meta name="Description" content="This is our fitness academy " />
+    <style>
+    </style>
+    <script></script>
+    <link rel="stylesheet " href="log.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <title>Vigor Form</title>
+</head>
+
+<body>
+    <div class="container" id="main">
+
+        <form onsubmit="return validation()" method="Post" action="send.php " name="regform" id="form"
+            class="form-Register">
+            <h2 class="title"> Register </h2>
+            <div class="input-field">
+                <i class="fas fa-user"></i>
+                <input type="text " name="username" placeholder="Username" id="username" required>
+
+            </div>
+            <div class="input-field">
+                <i class="fas fa-envelope"></i>
+                <input type="email " name=" email" placeholder="Email" id="Email" required>
+            </div>
+            <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" placeholder="Password" id="password" required>
+
+            </div>
+            <div class="input-field">
+                <i class="fas fa-mobile-alt"></i>
+                <input type="text" name="mobile" placeholder="Mobile Number" required>
+
+            </div>
+
+            <input type="submit" value="Register" class="LB">
+            <p class="social"> Or Login With Social Platforms</p>
+            <div class="social-media">
+                <a href="#" class="social-icon">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-google"></i>
+                </a>
+            </div>
+        </form>
+
+        <form action="" class="form-Login">
+            <h2 class="title"> Login </h2>
+            <div class="input-field">
+                <i class="fas fa-user"></i>
+                <input type="text " name="username" placeholder="Username" required>
+            </div>
+            <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" placeholder="Password" required>
+            </div>
+            <p class="forgrt"> Forget Password ? </p>
+            <input type="submit" value="Login" class="LB">
+            <p class="social"> Or Login With Social Platforms</p>
+            <div class="social-media">
+                <a href="#" class="social-icon">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-google"></i>
+                </a>
+            </div>
+        </form>
+
+        <div class="overrelay-container">
+            <div class="overrelay">
+                <div class="over-right">
+                    <button id="Register"> Register </button>
+                </div>
+                <div class="over-left">
+
+                    <button id="Login"> Login </button>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="log.js">
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.ContactUs {
+    margin-top: -10rem;
+}
+
+
+.con {
+
+    font-size: 5rem;
+    text-align: center;
+    color: #FBFFFF;
+    text-shadow: rgba(240, 67, 228, 0.9) 0px 0px 15px;
+
+}
+
+
+.contact-section {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+
+}
+
+.contact-info {
+    color: #ffffff;
+    max-width: 500px;
+    line-height: 65px;
+    font-size: 18px;
+    justify-content: center;
+    margin-right: 4rem;
+}
+
+.contact-info i {
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.contact-form {
+    max-width: 700px;
+    margin-right: 50px;
+
+
+}
+
+.contact-info .contact-form {
+    flex: 1;
+
+}
+
+.contact-form h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+}
+
+.contact-form .text-box {
+    background: #fff;
+    color: #000;
+    border: none;
+    width: calc(50% - 10px);
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: Spx;
+    box-shadow: • 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.contact-form .text-box:first-child {
+    margin-left: 15px;
+
+}
+
+.contact-form textarea {
+    background: #fff;
+    color: #000;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+
+}
+
+.contact-form .send-btn {
+    float: right;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.send-btn[type="submit"]:hover {
+    background: rgb(0, 123, 255);
+}
+
+#status {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    background-color: #fff;
+    padding: 10PX 40PX;
+    border-radius: 10px;
+
+}
+
+#status.success {
+    background-color: green;
+
+    animation: status 4s ease forwards;
+}
+
+#status.Error {
+    background-color: rgb(128, 0, 0);
+    animation: status 4s ease forwards;
+
+}
+
+@keyframes status {
+    0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+}

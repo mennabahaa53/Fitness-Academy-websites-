@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6%;
+    padding-top: 2rem;
+
+
+
+}
+
+.Gs {
+    padding-top: 4rem;
+    padding-bottom: 0.1rem;
+    font-size: 5rem;
+    text-align: center;
+    color: #FBFFFF;
+    text-shadow: rgba(240, 67, 228, 0.9) 0px 0px 15px;
+
+}
+
+.Gallery {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+
+
+}
+
+.Gallery img {
+    width: 100%;
+
+}
